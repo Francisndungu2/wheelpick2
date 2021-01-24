@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">wheelpick1</string>
+    <string name="find_restaurants">Find Restaurants</string>
+    <string name="registerwithus">Registers</string>
+    <string name="register">register</string>
+    <string name="about">about</string>
+    <string name="aboutus">submit</string>
+    <string name="penta_join">penta</string>
+    <item name="backs" type="id" />
+    <item name="textView" type="id" />
+
+
+</resources>

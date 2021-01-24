@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.form">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:paddingTop="16dp"
+        android:layout_gravity="center">
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="90dp" />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/penta_jina"
+            android:hint="First name"
+            />
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/penta_simu"
+            android:hint="phone number"
+            android:digits="1,2,3,4,5,6,7,8,9,0,+"
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/penta_siri"
+            android:inputType="textPassword"
+            android:hint="password"
+            />
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/penta_nsiri"
+            android:inputType="textPassword"
+            android:hint="confirm password"
+            />
+
+        <Button
+            android:id="@+id/open"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pik_siri"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="330dp"
+            android:background="@color/colorTextIcons"
+            android:text="submit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+
+    </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
