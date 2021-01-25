@@ -1,15 +1,36 @@
-package com.demotxt.myapp.myapplication.activities;
+package com.technogeek.loginapp;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
-import com.demotxt.myapp.myapplication.R;
+import com.google.firebase.auth.FirebaseAuth;
 
-public class activity_dashboard extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
+
+    Button btn_signout;
+    FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
+        btn_signout = findViewById(R.id.signoutBtn);
+        mAuth = FirebaseAuth.getInstance();
+
+        btn_signout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mAuth.signOut();
+                startActivity(new Intent(DashboardActivity.this, MainActivity.class));
+            }
+        });
+
+
     }
 }
