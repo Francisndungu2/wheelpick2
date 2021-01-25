@@ -3,11 +3,11 @@ package com.demotxt.myapp.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class activity_dashboard extends AppCompatActivity {
+public class activity_datadd extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.activity_datadd);
     }
 }
