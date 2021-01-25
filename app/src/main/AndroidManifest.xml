@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demotxt.myapp.myapplication">
-
-    <uses-permission android:name="android.permission.INTERNET" />
+    package="com.demotxt.wheelpick2">
 
     <application
         android:allowBackup="true"
@@ -11,12 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.MainActivity"></activity>
-        <activity android:name=".activities.LoginActivity" />
-        <activity android:name=".activities.layout_artist_list" />
-        <activity android:name=".activities.activity_datadd" />
-        <activity android:name=".activities.activity_dashboard" />
-        <activity android:name=".activities.MainActivit">
+
+        <activity android:name="com.demotxt.wheelpick2.DashboardActivity" />
+        <activity android:name="com.demotxt.wheelpick2.Datadd" />
+        <activity android:name="com.demotxt.wheelpick2.LoginActivity" />
+        <activity android:name="com.demotxt.wheelpick2.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
