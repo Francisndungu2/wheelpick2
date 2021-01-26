@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.demotxt.wheelpick2.R;
-import com.demotxt.wheelpick2.Vehicle;
 
 import java.util.List;
 
