@@ -17,7 +17,7 @@ Java
 Android
 
 ## Link
-https://github.com/Francisndungu2/wheelpick
+https://github.com/Francisndungu2/wheelpick2
 ## Bugs
 No known bug.
 ## Contact Information
