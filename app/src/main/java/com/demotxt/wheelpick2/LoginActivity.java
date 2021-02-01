@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        
 
         mAuth = FirebaseAuth.getInstance();
         emailText = findViewById(R.id.email);
@@ -53,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
 
         signupBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            {
                 Intent signupIntent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(signupIntent);
             }
